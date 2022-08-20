@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>exerc 8</title>
+</head>
+<body>
+
+  <span style="font-size: 28px" id="text4"></span>array<br>
+  <span style="font-size: 28px" id="text5"></span>ordem<br>
+  <span style="font-size: 28px" id="text6"></span>decrescente<br>
+
+
+</body>
+<script>
+
+  let num = [];
+
+  let num1 = parseInt(prompt("numero A"));
+  if (num1 !== 0) {
+      num.push()
+      
+  }
+  let num2 = parseInt(prompt("numero B"));
+  if (num1 !== num2) {
+      num.push()
+      
+  } else {
+    document.getElementById("text2").textContent = "numero nao pode ser igual";
+  } let num3 = parseInt(prompt("numero c"));
+  if (num1 !== num2 && num1 !== num3) { 
+      num.push()
+      
+  } else {
+    document.getElementById("text3").textContent = "numero é igual";
+  }
+
+  let numeros = [num1, num2, num3];  
+  document.getElementById("text4").textContent = (numeros);
+  
+  let sort = [num1, num2, num3];
+  sort.sort()
+  document.getElementById("text5").textContent = (sort);
+
+  let inve = sort
+  inve.reverse()
+  document.getElementById("text6").textContent = (inve);
+
+
+</script>
+</html>

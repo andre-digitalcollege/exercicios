@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>A = B?</title>
+</head>
+<body>
+  <span style="font-size: 28px" id="text"></span>
+  <span style="font-size: 28px" id="result"></span>
+</body>
+<script>
+  let valorA = parseInt(prompt("Numero A"));
+  let valorB = parseInt(prompt("Numero B"));
+  
+  var soma = valorA + valorB;
+  var mult = valorA * valorB;
+
+  if (valorA === valorB) {
+    
+    document.getElementById("text").textContent = "A+B é :";
+    document.getElementById("result").textContent = (soma);
+  } else { 
+    document.getElementById("text").textContent = "A*B é:";
+    document.getElementById("result").textContent = (soma);
+  }
+
+</script>
+</html>
